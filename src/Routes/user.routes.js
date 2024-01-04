@@ -1,6 +1,7 @@
 // user.routes.js
 const express = require('express');
 const UserController = require('../Controllers/user.controller');
+const { authenticateToken, authorizeManager } = require('../Middleware/authMiddleware');
 
 const userController = new UserController();
 const router = express.Router();
@@ -58,6 +59,29 @@ router.delete('/users/:userId', async (req, res) => {
     }
   } catch (error) {
     console.error('Error deleting user', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+// Route to create a user as a manager
+router.post('/create-manager', authenticateToken, authorizeManager, async (req, res) => {
+  try {
+    // Extract required information from the request body
+    const { username, password, email, role="Manager", restaurantId } = req.body;
+
+    // Check if the user with the given username already exists
+    const existingUser = await userController.getUserByUsername(username);
+
+    if (existingUser) {
+      return res.status(400).json({ error: 'Username is already taken. Choose a different one.' });
+    }
+
+    // Create a new user as a manager
+    const newUser = await userController.createUser(username, password, email, role, restaurantId);
+
+    res.status(201).json(newUser);
+  } catch (error) {
+    console.error('Error creating manager:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });

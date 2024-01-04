@@ -10,6 +10,24 @@ class UserController {
     async getAllUsers() {
       return this.userQueries.getAllUsers();
     }
+    
+    async login(username, password) {
+        // Retrieve user by username
+        const user = await this.userQueries.getUserByUsername(username);
+    
+        if (!user) {
+          throw new Error('User not found');
+        }
+    
+        // Compare provided password with stored hashed password
+        const isPasswordValid = await bcrypt.compare(password, user.password);
+    
+        if (!isPasswordValid) {
+          throw new Error('Invalid password');
+        }
+    
+        return user;
+      }
   
     async getUserById(userId) {
       return this.userQueries.getUserById(userId);
