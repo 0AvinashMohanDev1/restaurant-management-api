@@ -1,0 +1,23 @@
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /'
+}
