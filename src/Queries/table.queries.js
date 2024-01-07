@@ -23,7 +23,7 @@ class TableQueries {
     }
   
     async getFreeTablesByLocation(location) {
-      const query = 'SELECT * FROM tables t JOIN restaurants r ON t.restaurant_id = r.restaurant_id WHERE t.is_occupied = FALSE AND r.location = $1';
+      const query = 'SELECT * FROM tables AS t JOIN restaurants AS r ON t.restaurant_id = r.restaurant_id WHERE t.is_occupied = FALSE AND r.location = $1';
       const result = await this.pool.query(query, [location]);
       return result.rows;
     }

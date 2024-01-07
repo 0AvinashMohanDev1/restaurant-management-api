@@ -2,18 +2,22 @@
 const pool = require('../../db'); 
 const UserQueries = require('../Queries/user.queries');
 
-class UserController {
-  constructor() {
-    this.userQueries = new UserQueries(pool);
-  }
+// class UserController {
+//   constructor() {
+//     this.userQueries = new UserQueries(pool);
+//   }
   
-    async getAllUsers() {
-      return this.userQueries.getAllUsers();
-    }
+    // const getAllUsers=()=> {
+    //   return UserQueries.getAllUsers();
+    // }
     
-    async login(username, password) {
+    const getAllUsers=async()=>{
+      const users=await UserQueries.getAllUsers();
+      return users
+    }
+    const login=async(username, password)=> {
         // Retrieve user by username
-        const user = await this.userQueries.getUserByUsername(username);
+        const user = await UserQueries.getUserByUsername(username);
     
         if (!user) {
           throw new Error('User not found');
@@ -29,24 +33,31 @@ class UserController {
         return user;
       }
   
-    async getUserById(userId) {
-      return this.userQueries.getUserById(userId);
+      const getUserById=async(userId)=> {
+      return UserQueries.getUserById(userId);
     }
   
-    async addUser(username, password, role, restaurantId) {
-      return this.userQueries.addUser(username, password, role, restaurantId);
+    const addUser=async(username, password, role, restaurantId)=> {
+      return UserQueries.addUser(username, password, role, restaurantId);
     }
   
-    async updateUser(userId, { username, password, role, restaurantId }) {
-      return this.userQueries.updateUser(userId, { username, password, role, restaurantId });
+    const updateUser=async(userId, { username, password, role, restaurantId })=> {
+      return UserQueries.updateUser(userId, { username, password, role, restaurantId });
     }
   
-    async deleteUser(userId) {
-      return this.userQueries.deleteUser(userId);
+    const deleteUser=async(userId)=> {
+      return UserQueries.deleteUser(userId);
     }
   
     // You may include additional methods for authentication, authorization, etc.
-  }
+  // }
   
-  module.exports = UserController;
+  module.exports = {
+    login,
+    addUser,
+    getAllUsers,
+    getUserById,
+    updateUser,
+    deleteUser
+  };
   

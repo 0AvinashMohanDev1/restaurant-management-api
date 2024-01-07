@@ -3,10 +3,12 @@
     req: {
       url: '/',
       headers: {
+        'content-length': '120',
         'accept-encoding': 'gzip, deflate, br',
         cookie: 'name=express',
         accept: '*/*',
         'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
         host: 'localhost:3000',
         connection: 'close'
       },
@@ -20,4 +22,4338 @@
   },
   level: 'info',
   message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/api/menu',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/menu',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 137
+  },
+  level: 'info',
+  message: 'HTTP GET /api/menu'
+}
+{
+  meta: {
+    req: {
+      url: '/api/menu',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/menu',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP POST /api/menu'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 95
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 257
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 86
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 110
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 246
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 118
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 119
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 115
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 130
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 116
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 128
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 232
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants'
+}
+{
+  meta: {
+    req: {
+      url: '/api/getRestaurantById/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/getRestaurantById/2',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/getRestaurantById/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/getRestaurantById/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/getRestaurantById/2',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/getRestaurantById/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 49
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 54
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 53
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 64
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 101
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 62
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 103
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 126
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 21
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 108
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 113
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 95
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '122',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 83
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '122',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 100
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '21',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 127
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '21',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 82
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '21',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 78
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 111
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 94
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 126
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 81
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 20
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 8
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 15
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 16
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 12
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 15
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 192
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 102
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 124
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 182
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '120',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 103
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 138
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 131
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 91
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 253
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 112
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 140
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 142
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 166
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/4',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/4',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '135',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 102
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 139
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 116
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 111
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 95
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 13
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 20
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 17
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 130
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '110',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 124
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '110',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 137
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 97
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 155
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 114
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/Suburb',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/Suburb',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 176
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/Suburb'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Suburb',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Suburb',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Suburb'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Suburb',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Suburb',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Suburb'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/5',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/5',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 100
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/5'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/6',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/6',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/6'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/10',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/10',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/10'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Suburb',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Suburb',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 116
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Suburb'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/The%20Forest',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/The%20Forest',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 101
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/The%20Forest'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/%22The%20Forest%22',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/%22The%20Forest%22',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 85
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/%22The%20Forest%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/The%20Forest',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/The%20Forest',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 103
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/The%20Forest'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/The%20Forest',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/The%20Forest',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 136
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/The%20Forest'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Seafood%20Sensation',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Seafood%20Sensation',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 81
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Seafood%20Sensation'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Seafood%20Sensation',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Seafood%20Sensation',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 122
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Seafood%20Sensation'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 98
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Cafe%20Delight',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Cafe%20Delight',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 98
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Cafe%20Delight'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '111',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 90
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 126
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/location/City%20Center',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/location/City%20Center',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 118
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/location/City%20Center'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/4.7',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/4.7',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 106
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/4.7'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 134
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating/?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating/?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 121
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating/?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 216
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 144
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 142
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 127
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 123
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 111
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 139
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 123
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 135
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating?order=%22DESC%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating?order=%22DESC%22',
+      query: { order: '"DESC"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 125
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating?order=%22DESC%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 94
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/orderRating',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/orderRating',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/orderRating'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/5',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/5',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 82
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/5'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/4.7',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/4.7',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 207
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/4.7'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/4.7',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/4.7',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 121
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/4.7'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating?order=%27asc%27',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating?order=%27asc%27',
+      query: { order: "'asc'" }
+    },
+    res: { statusCode: 500 },
+    responseTime: 92
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating?order=%27asc%27'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/?order=%27asc%27',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/?order=%27asc%27',
+      query: { order: "'asc'" }
+    },
+    res: { statusCode: 500 },
+    responseTime: 112
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/?order=%27asc%27'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating?order=%22asc%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating?order=%22asc%22',
+      query: { order: '"asc"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 104
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating?order=%22asc%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/4.7',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/4.7',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 209
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/4.7'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 106
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating?order=%22asc%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating?order=%22asc%22',
+      query: { order: '"asc"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 125
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating?order=%22asc%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 122
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 83
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating?order=%22asc%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating?order=%22asc%22',
+      query: { order: '"asc"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 160
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating?order=%22asc%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating?order=%22asc%22',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating?order=%22asc%22',
+      query: { order: '"asc"' }
+    },
+    res: { statusCode: 500 },
+    responseTime: 158
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating?order=%22asc%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/rating/4',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/rating/4',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 69
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/rating/4'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 152
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/10',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/10',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 89
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/10'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/10',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/10',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/10'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/3',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/3',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 88
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/3'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 39
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 37
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 73
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 53
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/2',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/2',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 51
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/2'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '132',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 146
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 37
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 53
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 54
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 90
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/11',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/11',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Gourmet%20Haven',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Gourmet%20Haven',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 147
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Gourmet%20Haven'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/location/City%20Center',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/location/City%20Center',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 40
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/location/City%20Center'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/location/Seafood%20Sensation',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/location/Seafood%20Sensation',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 37
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/location/Seafood%20Sensation'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 35
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/name/Seafood%20Sensation',
+      headers: {
+        'content-length': '49',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/name/Seafood%20Sensation',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/name/Seafood%20Sensation'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 163
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 52
+  },
+  level: 'info',
+  message: 'HTTP POST /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/13',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/13',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 60
+  },
+  level: 'info',
+  message: 'HTTP DELETE /api/restaurants/13'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/13',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/13',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/13'
+}
+{
+  meta: {
+    req: {
+      url: '/api/restaurants/',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/restaurants/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/restaurants/'
+}
+{
+  meta: {
+    req: {
+      url: '/users/create-manager',
+      headers: {
+        'content-length': '156',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/users/create-manager',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP POST /users/create-manager'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/create-manager',
+      headers: {
+        'content-length': '156',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/create-manager',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP POST /api/users/create-manager'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 9
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/1',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/1',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/1',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/1',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /api/user/1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/1',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/%22Avinash%20Mohan%20Dev%22',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/%22Avinash%20Mohan%20Dev%22',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/%22Avinash%20Mohan%20Dev%22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/Avinash%20Mohan%20Dev',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/Avinash%20Mohan%20Dev',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/Avinash%20Mohan%20Dev'
+}
+{
+  meta: {
+    req: {
+      url: '/api/users/',
+      headers: {
+        'content-length': '159',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'name=express',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/users/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /api/users/'
 }
