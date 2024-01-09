@@ -1,7 +1,6 @@
 // payment.routes.js
 const express = require('express');
 const PaymentController = require('../Controllers/payment.controller');
-
 const paymentController = new PaymentController();
 const router = express.Router();
 
